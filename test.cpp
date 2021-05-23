@@ -12,7 +12,9 @@ int main()
     basic.EmojiSmile(1, true);
     basic.EmojiSmile(2, true);
     basic.EndLine(2);
-
+    basic.CreateAnim("||||\n||||", "----\n----", 2);
+    basic.EndLine(2);
+    basic.getchString("", true, true, 2);
 
     return 0;
 }
